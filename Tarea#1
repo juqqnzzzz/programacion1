@@ -1,0 +1,398 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPFRWpHVwFwk8Zy3NNjtJvj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/juqqnzzzz/programacion1/blob/main/Tarea%231\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#LISTA"
+      ],
+      "metadata": {
+        "id": "LL0kYbe0PThV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "hBvrRUIn_j--"
+      },
+      "outputs": [],
+      "source": [
+        "lista1 = [1, 2, 3]"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tupla1 = tuple(lista1)\n",
+        "print(tupla1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MFUP7v4uNBVh",
+        "outputId": "1a4efb48-1372-4d95-92c1-0ead37a8b022"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(1, 2, 3)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "diccionario1 = dict(enumerate(lista1))\n",
+        "print(diccionario1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8geyikLwOzum",
+        "outputId": "b763dd73-99d5-4576-a22e-d669b9ba6238"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{0: 1, 1: 2, 2: 3}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "conjunto1 = set(lista1)\n",
+        "print(conjunto1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c-2EfHMZPGKo",
+        "outputId": "b0b9381d-3f24-44b6-8490-10b2e2ffe542"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{1, 2, 3}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#TUPLA"
+      ],
+      "metadata": {
+        "id": "qnCFiJXgPXqw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tupla2 = (1, 2, 3)"
+      ],
+      "metadata": {
+        "id": "-24vkUxdPY5R"
+      },
+      "execution_count": 11,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lista2 = list(tupla2)\n",
+        "print(lista2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8chsLzDBPqNq",
+        "outputId": "0639d14a-5b1a-4540-8d5b-98db99ce83b1"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "diccionario2 = dict(enumerate(tupla2))\n",
+        "print(diccionario2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yiOpdq3DP22O",
+        "outputId": "9f8b6f03-f72c-4c80-a366-2d84fa225a0c"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{0: 1, 1: 2, 2: 3}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "conjunto2 = set(tupla2)\n",
+        "print(conjunto2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v9uQggDNP_ut",
+        "outputId": "3bdee1aa-c843-47e0-eda4-95bc8116fbc8"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{1, 2, 3}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#DICCIONARIO"
+      ],
+      "metadata": {
+        "id": "7MTK0XnoQMUk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "diccionario3 = {'1': 'uno', '2': 'dos', '3': 'tres'}"
+      ],
+      "metadata": {
+        "id": "7vQkq-xNQQBa"
+      },
+      "execution_count": 15,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tupla3 = tuple(diccionario3)\n",
+        "print(tupla3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_5Jp8SFDQ07V",
+        "outputId": "2a58bc03-22ee-492b-b278-3bc0fe23661e"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('1', '2', '3')\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lista3 = list(diccionario3)\n",
+        "print(lista3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hYxtJHyvQ_pe",
+        "outputId": "23f28dca-07cb-4407-c42a-5461b1f2f437"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['1', '2', '3']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "conjunto3 = set(diccionario3)\n",
+        "print(conjunto3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lMHer5C1RGYO",
+        "outputId": "0d4f2527-20b4-449c-d32d-45cbf3c6db14"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'2', '3', '1'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#CONJUNTO"
+      ],
+      "metadata": {
+        "id": "iX_W8txjSK98"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "conjunto4 = {'rojo', 'azul', 'verde'}"
+      ],
+      "metadata": {
+        "id": "yybAwgPySMnG"
+      },
+      "execution_count": 22,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tupla4 = tuple(conjunto4)\n",
+        "print(tupla4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xCz4t3z0ST0b",
+        "outputId": "2a180ce8-1fcd-4288-e399-6f5c12257e69"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('rojo', 'verde', 'azul')\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lista4 = list(conjunto4)\n",
+        "print(lista4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XVFdycgBSbYK",
+        "outputId": "9bf5e384-d2b1-4e48-ba38-8b603380651b"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['rojo', 'verde', 'azul']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "diccionario4 = dict(enumerate(conjunto4))\n",
+        "print(diccionario4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "60abC0vTSflh",
+        "outputId": "719a97a4-f9cf-48d4-eb98-cbc31c1c31db"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{0: 'rojo', 1: 'verde', 2: 'azul'}\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
